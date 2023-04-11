@@ -2,7 +2,6 @@
     <form action="form.php" method="post">
         <p>Captcha:</p>
         <p>
-            <!-- <img src="image.php?captcha_text=<?php echo $_SESSION['captcha']; ?>" alt=""> -->
             <img src="captcha.php" alt="">
         </p>
         <p><input type="text" name="form-captcha" ></p>

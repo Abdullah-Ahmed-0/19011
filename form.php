@@ -15,15 +15,7 @@
         } else {
             // Captcha doesn't match, show error message
             echo "Captcha doesn't match!" .'<br>';
-            echo $captcha .'<br>';
-            echo $user_input.'<br>';
-            echo $_SESSION['capcha_code'];
-        }
-    
-        // Destroy session and redirect to original page
-        // session_destroy();
-        // header('Location: index.php');
-        // exit();
+        }      
     }
 
 ?>
